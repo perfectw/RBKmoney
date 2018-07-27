@@ -7,21 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E74A136C20DE80A200DCB70A /* Guild.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74A136B20DE80A200DCB70A /* Guild.swift */; };
+		E74F95D120DCE1F900E8704F /* Trader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F95D020DCE1F900E8704F /* Trader.swift */; };
+		E74F95D320DCEB1300E8704F /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F95D220DCEB1300E8704F /* Deal.swift */; };
+		E75A42EB210B96B000505230 /* AnnualCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75A42EA210B96B000505230 /* AnnualCycle.swift */; };
 		E782415820D4043100B39B87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782415720D4043100B39B87 /* AppDelegate.swift */; };
-		E782415A20D4043100B39B87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782415920D4043100B39B87 /* ViewController.swift */; };
 		E782415D20D4043100B39B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E782415B20D4043100B39B87 /* Main.storyboard */; };
 		E782415F20D4043200B39B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E782415E20D4043200B39B87 /* Assets.xcassets */; };
 		E782416220D4043200B39B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E782416020D4043200B39B87 /* LaunchScreen.storyboard */; };
+		E7840FC220D6719B00630E2D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7840FC120D6719B00630E2D /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E74A136B20DE80A200DCB70A /* Guild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guild.swift; sourceTree = "<group>"; };
+		E74F95D020DCE1F900E8704F /* Trader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trader.swift; sourceTree = "<group>"; };
+		E74F95D220DCEB1300E8704F /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		E75A42EA210B96B000505230 /* AnnualCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnualCycle.swift; sourceTree = "<group>"; };
 		E782415420D4043100B39B87 /* RBKmoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBKmoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E782415720D4043100B39B87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E782415920D4043100B39B87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E782415C20D4043100B39B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E782415E20D4043200B39B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E782416120D4043200B39B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E782416320D4043200B39B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7840FC120D6719B00630E2D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		E7D7F5802109ECAF0097A791 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +63,27 @@
 		E782415620D4043100B39B87 /* RBKmoney */ = {
 			isa = PBXGroup;
 			children = (
+				E782416920D4043F00B39B87 /* Model */,
 				E782415720D4043100B39B87 /* AppDelegate.swift */,
-				E782415920D4043100B39B87 /* ViewController.swift */,
 				E782415B20D4043100B39B87 /* Main.storyboard */,
 				E782415E20D4043200B39B87 /* Assets.xcassets */,
 				E782416020D4043200B39B87 /* LaunchScreen.storyboard */,
 				E782416320D4043200B39B87 /* Info.plist */,
+				E7D7F5802109ECAF0097A791 /* README.md */,
 			);
 			path = RBKmoney;
+			sourceTree = "<group>";
+		};
+		E782416920D4043F00B39B87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E74F95D220DCEB1300E8704F /* Deal.swift */,
+				E74F95D020DCE1F900E8704F /* Trader.swift */,
+				E74A136B20DE80A200DCB70A /* Guild.swift */,
+				E7840FC120D6719B00630E2D /* Common.swift */,
+				E75A42EA210B96B000505230 /* AnnualCycle.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E782415A20D4043100B39B87 /* ViewController.swift in Sources */,
 				E782415820D4043100B39B87 /* AppDelegate.swift in Sources */,
+				E75A42EB210B96B000505230 /* AnnualCycle.swift in Sources */,
+				E74A136C20DE80A200DCB70A /* Guild.swift in Sources */,
+				E7840FC220D6719B00630E2D /* Common.swift in Sources */,
+				E74F95D120DCE1F900E8704F /* Trader.swift in Sources */,
+				E74F95D320DCEB1300E8704F /* Deal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJV5G967C4;
 				INFOPLIST_FILE = RBKmoney/Info.plist;
@@ -289,6 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfect-ware.RBKmoney";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJV5G967C4;
 				INFOPLIST_FILE = RBKmoney/Info.plist;
@@ -307,6 +336,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfect-ware.RBKmoney";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
