@@ -47,6 +47,7 @@
 		E782414B20D4043100B39B87 = {
 			isa = PBXGroup;
 			children = (
+				E7D7F5802109ECAF0097A791 /* README.md */,
 				E782415620D4043100B39B87 /* RBKmoney */,
 				E782415520D4043100B39B87 /* Products */,
 			);
@@ -69,7 +70,6 @@
 				E782415E20D4043200B39B87 /* Assets.xcassets */,
 				E782416020D4043200B39B87 /* LaunchScreen.storyboard */,
 				E782416320D4043200B39B87 /* Info.plist */,
-				E7D7F5802109ECAF0097A791 /* README.md */,
 			);
 			path = RBKmoney;
 			sourceTree = "<group>";
